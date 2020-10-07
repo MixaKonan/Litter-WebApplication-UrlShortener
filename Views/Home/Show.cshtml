@@ -1,0 +1,17 @@
+﻿@model IEnumerable<LitterModel>
+
+@{
+    ViewData["Title"] = "Generator";
+}
+
+<a asp-action="Create">Create new shortened link</a>
+<table class="table">
+
+    <tr><td>Url</td><td>Shortened Version</td></tr>
+
+    @foreach (var item in Model)
+    {
+        <tr><td>@item.Url</td><td>@item.GeneratedKey</td></tr>
+    }
+
+</table>
