@@ -1,2 +1,2 @@
 # Litter-WebApplication-UrlShortener
-ASP.NET Core web application. Similar to bit.ly service.
+ASP.NET Core web application called Litter. Similar to bit.ly service.
